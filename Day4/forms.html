@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>University Registration Form</h1>
+    <p>Please fill out the form below to register.</p>
+    <hr />
+    <form action="">
+      <h2>Personal Details</h2>
+      <label for="name">First Name : </label>
+      <input type="text" name="fName" id="name" placeholder="eg: Sourav" required/>
+      <br /><br />
+      <label for="surename">Last Name : </label>
+      <input
+        type="text"
+        name="surename"
+        id="surename"
+        placeholder="eg : Sharma"
+      />
+      <br /><br />
+      <label for="dob">Date of Birth : </label>
+      <input type="date" name="dob" id="dob" />
+      <br /><br />
+
+      <h3>Gender</h3>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <br /><br />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <br /><br />
+      <label for="other">Other</label>
+      <input type="radio" name="gender" id="other" value="other" />
+      <br /><br />
+
+      <h3>Upload Your Photo</h3>
+      <input type="file" name="file" id="" />
+      <hr />
+
+      <h2>Contact Information</h2>
+
+      <label for="email">Email Address</label>
+      <input type="email" name="email" id="email" />
+      <br /><br />
+      <label for="phone">Phone Number</label>
+      <input type="tel" name="phone" id="phone" />
+      <br /><br />
+      <label for="address">Mailing Address :</label>
+      <br />
+      <textarea name="address" id="address" rows="5" cols="30"></textarea>
+      <hr />
+      <h2>Academic Information</h2>
+
+      <label for="course">Select Your Course</label>
+      <br />
+      <select name="course" id="course">
+        <option value="CSE">CSE</option>
+        <option value="ME">ME</option>
+        <option value="Electrical">EE</option>
+      </select>
+
+      <h3>Extracurricular Activites :</h3>
+
+      <label for="sports">Sports</label>
+      <input type="checkbox" name="interest" id="sports" value="sports" />
+      <br /><br />
+      <label for="music">Music</label>
+      <input type="checkbox" name="interest" id="music" value="music" />
+      <br /><br />
+      <label for="technology">Tech Club</label>
+      <input
+        type="checkbox"
+        name="interest"
+        id="technology"
+        value="technology"
+      />
+      <br /><br />
+      <label for="Volunteering">Volunteering</label>
+      <input
+        type="checkbox"
+        name="interest"
+        id="Volunteering"
+        value="Volunteering"
+      />
+      <hr />
+      <h2>Create Your Account :</h2>
+
+      <label for="password">Create Password</label>
+      <input type="password" name="password" id="password" />
+      <br /><br />
+      <label for="security">Security Answer</label>
+      <input type="text" name="security" id="security" />
+
+      <hr />
+
+      <button type="submit">Register</button>
+      <button type="reset">Clear Form</button>
+    </form>
+  </body>
+</html>
+
+<div>http://127.0.0.1:5500/Day4/forms.html?fName=Sourav&surename=Dey&dob=1996-08-02&gender=male&file=photo1677071934.jpeg&email=deysourav756%40gmail.com&phone=8240432713&address=Raghunathpur+College+Main+Road&course=Electrical&interest=sports&password=Srv228%401996&security=</div>
+
+<style>
+
+    div{
+        background-color: blueviolet;
+    }
+</style>
