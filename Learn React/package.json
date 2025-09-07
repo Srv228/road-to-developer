@@ -1,0 +1,25 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "Learning React",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srv228/road-to-developer.git#main"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Sourav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Srv228/road-to-developer/issues"
+  },
+  "homepage": "https://github.com/Srv228/road-to-developer/tree/main#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
